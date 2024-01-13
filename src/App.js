@@ -1,5 +1,5 @@
 // import React from "react";
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import {
 //   navBar,
 //   mainBody,
@@ -79,7 +79,8 @@
 //   const titleRef = React.useRef();
 
 //   return (
-//     <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+    
+//     <Router basename={process.env.PUBLIC_URL + "/"}>
 //       {navBar.show && <Navbar ref={titleRef} />}
 //       <Routes>
 //         <Route path="/" exact element={<Home ref={titleRef} />} />
@@ -95,7 +96,8 @@
 //           />
 //         )}
 //       </Footer>
-//     </BrowserRouter>
+//     </Router>
+  
 //   );
 // };
 
@@ -214,6 +216,8 @@ import {
   getInTouch,
   experiences,
 } from "./editable-stuff/config.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
@@ -304,6 +308,3 @@ const App = () => {
 };
 
 export default App;
-
-
-
