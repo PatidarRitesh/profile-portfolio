@@ -60,6 +60,19 @@ const about = {
   // resume: require("../editable-stuff/Ritesh_resume.pdf"),
 };
 
+// const about = {
+//   show: true,
+//   heading: "About Me",
+//   imageLink: require("../editable-stuff/Ritesh_image.jpeg"),
+//   imageSize: 350,
+//   message: `
+//     My name is Ritesh Patidar. Currently pursuing my M.Tech in Computer Science at IIT Gandhinagar, I'm passionate about NLP and actively engaged in a project under <a href="https://mayank4490.github.io/">Prof. Mayank Singh</a>. My interests span software development and data science, and I'm excited about contributing to innovative tech solutions. Let's connect and explore the possibilities together!
+//   `,
+//   resume: "https://drive.google.com/file/d/1aJj953IxqIiYUvFs_F9hqgVbO3hm1mWC/view?usp=drive_link",
+// };
+
+
+
 // PROJECTS SECTION
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
@@ -109,7 +122,7 @@ const skills = {
     { name: "JavaScript", value: 50 },
     { name: "React", value: 50 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 30 },
+    { name: "Java", value: 30 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -128,7 +141,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Software Engineering or Data Science opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "riteshpatidar2499@gmail.com",
 };
 
