@@ -19,19 +19,20 @@ const mainBody = {
     //   image: "fa-facebook",
     //   url: "",
     // },
-    {
-      image: "fa-instagram",
-      url: "https://www.linkedin.com/in/ritesh-patidarr",
-    },
+    
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/ritesh-patidarr",
 
    },
-    {
-      image: "fa-twitter",
-      url: "https://www.linkedin.com/in/ritesh-patidarr",
-    },
+  {
+    image: "fa-instagram",
+    url: "https://www.instagram.com/ritesh__patidar/?next=%2F",
+  },
+    // {
+    //   image: "fa-twitter",
+    //   url: "https://www.linkedin.com/in/ritesh-patidarr",
+    // },
   ],
 };
 
@@ -82,7 +83,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "PatidarRitesh", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 8,
   specificRepos: [],
 };
 
