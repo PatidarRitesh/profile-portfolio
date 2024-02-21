@@ -56,7 +56,7 @@ const about = {
   imageLink: require("../editable-stuff/Ritesh_image.jpeg"),
   imageSize: 350,
   message:
-    "My name is Ritesh Patidar Currently pursuing my M.Tech in Computer Science at IIT Gandhinagar, I'm passionate about NLP and actively engaged in a project under Prof. Mayank Singh. My interests span software development and data science, and I'm excited about contributing to innovative tech solutions. Let's connect and explore the possibilities together!",
+    "My name is Ritesh Patidar Currently pursuing M.Tech in Computer Science at Indian Institute of Technology Gandhinagar, I'm passionate about NLP and actively engaged in a project under Prof. Mayank Singh. My interests span Software development and Data science, and I'm excited about contributing to innovative tech solutions. Let's connect and explore the possibilities together!",
   resume: "https://drive.google.com/file/d/1aJj953IxqIiYUvFs_F9hqgVbO3hm1mWC/view?usp=drive_link",
   // resume: require("../editable-stuff/Ritesh_resume.pdf"),
 };
@@ -116,24 +116,35 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
     { name: "C/C++", value: 80 },
-    { name: "JavaScript", value: 50 },
-    { name: "React", value: 50 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "Java", value: 30 },
+    { name: "Python", value: 90 },
+    { name: "Java", value: 50 },
+    { name: "SQL", value: 75 },
+    { name: "JavaScript", value: 40 },
+    { name: "React", value: 40 },
+    { name: "HTML/CSS", value: 60 },
+    { name: "Flask", value: 70},
+    { name: "Data Structures", value: 85 },
+    { name: "Docker", value: 70 },
+    { name: "Kubernetes", value: 60 },
+    { name: "Ansible", value: 50},
+    { name: "Terraform", value: 40},
+    { name: "Jenkins", value: 60},
+    { name: "CI/CD", value: 60},
+    { name: "Git", value: 70 },
+    { name: "Linux", value: 60},
+    { name: "AWS", value: 60},
+
   ],
   softSkills: [
+    { name: "Leadership", value: 85 },
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
     { name: "Positivity", value: 75 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Creativity", value: 85 },
   ],
 };
 
@@ -165,7 +176,7 @@ const experiences = {
 
 // Blog SECTION
 // const blog = {
-//   show: false,
+//   show: true,
 // };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
