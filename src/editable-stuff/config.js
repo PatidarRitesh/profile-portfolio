@@ -56,7 +56,7 @@ const about = {
   imageLink: require("../editable-stuff/Ritesh_image.jpeg"),
   imageSize: 350,
   message:
-    "My name is Ritesh Patidar Currently pursuing M.Tech in Computer Science at Indian Institute of Technology Gandhinagar, I'm passionate about NLP and actively engaged in a project under Prof. Mayank Singh. My interests span Software development and Data science, and I'm excited about contributing to innovative tech solutions. Let's connect and explore the possibilities together!",
+    "My name is Ritesh Patidar Currently pursuing M.Tech in Computer Science at Indian Institute of Technology Gandhinagar,",
   resume: "https://drive.google.com/file/d/1aJj953IxqIiYUvFs_F9hqgVbO3hm1mWC/view?usp=drive_link",
   // resume: require("../editable-stuff/Ritesh_resume.pdf"),
 };

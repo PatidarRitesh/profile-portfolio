@@ -47,9 +47,24 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
             />
           )}
         </div>
+  
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
-          <p className="lead text-center">{message}</p>
+          <p className="lead text-center">{message}{" "}
+  {link && (
+    <span>
+      I'm passionate about NLP and actively engaged in a project under{" "}
+      <a
+        href="https://mayank4490.github.io/"
+        target="_blank"
+        rel="noreferrer noopener"
+        aria-label="Prof. Mayank Singh's profile"
+      >
+        Prof. Mayank Singh
+      </a>
+      . My interests span Software development and Data science, and I'm excited about contributing to innovative tech solutions. Let's connect and explore the possibilities together!
+    </span>
+  )}</p>
           {resume && (
             <p className="lead text-center">
               <a
