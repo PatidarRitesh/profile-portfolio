@@ -2,7 +2,7 @@
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
 
-  "homepage": "https://PatidarRitesh.github.io/",
+  "homepage": "https://PatidarRitesh.github.io/profile-portfolio",
   "version": "2.0.0",
   "dependencies": {
     "@testing-library/jest-dom": "^6.2.0",

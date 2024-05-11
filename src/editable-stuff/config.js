@@ -56,7 +56,7 @@ const about = {
   imageLink: require("../editable-stuff/Ritesh_image.jpeg"),
   imageSize: 350,
   message:
-    "My name is Ritesh Patidar Currently pursuing M.Tech in Computer Science at Indian Institute of Technology Gandhinagar,",
+    "My name is Ritesh Patidar. I completed my M.Tech in Computer Science from the Indian Institute of Technology Gandhinagar,",
   resume: "https://drive.google.com/file/d/1aJj953IxqIiYUvFs_F9hqgVbO3hm1mWC/view?usp=drive_link",
   // resume: require("../editable-stuff/Ritesh_resume.pdf"),
 };
@@ -124,17 +124,19 @@ const skills = {
     { name: "React", value: 40 },
     { name: "HTML/CSS", value: 60 },
     { name: "Flask", value: 70},
+    {name:"NLP", value: 70},
+    {name:"LangChain", value: 50},
     { name: "Data Structures", value: 85 },
     { name: "Docker", value: 70 },
     { name: "Kubernetes", value: 60 },
-    { name: "Ansible", value: 30},
-    { name: "Terraform", value: 30},
-    { name: "Jenkins", value: 30},
-    { name: "CI/CD", value: 40},
+    { name: "Ansible", value: 20},
+    { name: "Terraform", value: 20},
+    { name: "Jenkins", value: 20},
+    { name: "CI/CD", value: 30},
     { name: "Git", value: 70 },
     { name: "Linux", value: 60},
     { name: "AWS", value: 60},
-
+    
   ],
   softSkills: [
     { name: "Leadership", value: 85 },
@@ -153,24 +155,25 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Data Science opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm looking for full-time Software Engineering or Data Science opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "riteshpatidar2499@gmail.com",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'AL/ML Backend Developer',
+      companylogo: require('../assets/img/NeuroReef.png'),
+      date: 'April 2024 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'NLP Researcher',// Here Add Company Name
+      companylogo: require('../assets/img/lingo.png'),
+      date: 'Dec 2022 – May 2024',
     },
+    
   ]
 }
 

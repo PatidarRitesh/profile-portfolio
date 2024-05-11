@@ -53,16 +53,16 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           <p className="lead text-center">{message}{" "}
   {link && (
     <span>
-      I'm passionate about NLP and actively engaged in a project under{" "}
+      I am passionate about NLP and currently work at {" "}
       <a
-        href="https://mayank4490.github.io/"
+        href="https://neuroreef.com/"
         target="_blank"
         rel="noreferrer noopener"
-        aria-label="Prof. Mayank Singh's profile"
+        aria-label="NeuroReef Labs Website"
       >
-        Prof. Mayank Singh
+      NeuroReef Labs
       </a>
-      . My interests span Software development and Data science, and I'm excited about contributing to innovative tech solutions. Let's connect and explore the possibilities together!
+      {" "} as an AI/ML Backend Developer. My interests span software development and data science, and I am excited about contributing to innovative tech solutions. Let's connect and explore the possibilities together!
     </span>
   )}</p>
           {resume && (
