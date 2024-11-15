@@ -62,7 +62,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
       >
       NeuroReef Labs
       </a>
-      {" "} as an AI/ML Backend Developer. My interests span software development and data science, and I am excited about contributing to innovative tech solutions. Let's connect and explore the possibilities together!
+      {" "} With an M.Tech in Computer Science from the Indian Institute of Technology Gandhinagar, my work spans dynamic areas like Speech-to-Text (Audio Processing) and DevOps. I'm passionate about merging software development with data science to drive forward-thinking innovation.If you're interested in collaborating or discussing technology's evolving landscape, let’s connect and explore new possibilities together!
     </span>
   )}</p>
           {resume && (

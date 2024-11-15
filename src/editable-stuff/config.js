@@ -55,8 +55,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/Ritesh_image.jpeg"),
   imageSize: 350,
-  message:
-    "My name is Ritesh Patidar. I completed my M.Tech in Computer Science from the Indian Institute of Technology Gandhinagar,",
+  message:"I'm Ritesh Patidar, Backend Developer at NeuroReef Labs, specializing in Natural Language Processing and dedicated to building impactful tech solutions,",
   resume: "https://drive.google.com/file/d/1aJj953IxqIiYUvFs_F9hqgVbO3hm1mWC/view?usp=drive_link",
   // resume: require("../editable-stuff/Ritesh_resume.pdf"),
 };
@@ -164,9 +163,9 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'AL/ML Backend Developer',
+      role: 'Backend Developer',
       companylogo: require('../assets/img/NeuroReef.png'),
-      date: 'April 2024 – Present',
+      date: 'Oct 2023 – Present',
     },
     {
       role: 'NLP Researcher',// Here Add Company Name
