@@ -52,18 +52,18 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           <h2 className="display-4 mb-5 text-center">{heading}</h2>
           <p className="lead text-center">{message}{" "}
   {link && (
-    <span>
-      I am passionate about NLP and currently work at {" "}
-      <a
-        href="https://neuroreef.com/"
-        target="_blank"
-        rel="noreferrer noopener"
-        aria-label="NeuroReef Labs Website"
-      >
-      NeuroReef Labs
-      </a>
-      {" "} as an AI/ML Backend Developer. My interests span software development and data science, and I am excited about contributing to innovative tech solutions. Let's connect and explore the possibilities together!
-    </span>
+     <span>
+     Backend Developer at {" "}
+     <a
+       href="https://neuroreef.com/"
+       target="_blank"
+       rel="noreferrer noopener"
+       aria-label="NeuroReef Labs Website"
+     >
+     NeuroReef Labs
+     </a>
+     {" "} , specializing in Natural Language Processing and dedicated to building impactful tech solutions,with an M.Tech in Computer Science from the Indian Institute of Technology Gandhinagar, my work spans dynamic areas like Speech-to-Text (Audio Processing) and DevOps.My passion lies in blending software development with data science to push the boundaries of innovation.If you're interested in collaborating or discussing technology's evolving landscape, let’s connect and explore new possibilities together!
+   </span>
   )}</p>
           {resume && (
             <p className="lead text-center">
