@@ -55,7 +55,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/Ritesh_image.jpeg"),
   imageSize: 350,
-  message:"I'm Ritesh Patidar, Backend Developer at NeuroReef Labs, specializing in Natural Language Processing and dedicated to building impactful tech solutions,",
+  message:"I'm Ritesh Patidar,",
   resume: "https://drive.google.com/file/d/1aJj953IxqIiYUvFs_F9hqgVbO3hm1mWC/view?usp=drive_link",
   // resume: require("../editable-stuff/Ritesh_resume.pdf"),
 };
@@ -71,8 +71,6 @@ const about = {
 //   resume: "https://drive.google.com/file/d/1aJj953IxqIiYUvFs_F9hqgVbO3hm1mWC/view?usp=drive_link",
 // };
 
-
-
 // PROJECTS SECTION
 // Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
@@ -85,7 +83,6 @@ const repos = {
   reposLength: 8,
   specificRepos: [],
 };
-
 // Leadership SECTION
 const leadership = {
   show: false,
@@ -117,24 +114,24 @@ const skills = {
   hardSkills: [
     { name: "C/C++", value: 85 },
     { name: "Python", value: 90 },
-    { name: "Java", value: 50 },
-    { name: "SQL", value: 75 },
+    { name: "Java", value: 60 },
+    { name: "SQL", value: 80 },
     { name: "JavaScript", value: 40 },
     { name: "React", value: 40 },
     { name: "HTML/CSS", value: 60 },
     { name: "Flask", value: 70},
     {name:"NLP", value: 70},
-    {name:"LangChain", value: 50},
+    {name:"LangChain", value: 60},
     { name: "Data Structures", value: 85 },
     { name: "Docker", value: 70 },
     { name: "Kubernetes", value: 60 },
     { name: "Ansible", value: 20},
     { name: "Terraform", value: 20},
     { name: "Jenkins", value: 20},
-    { name: "CI/CD", value: 30},
+    { name: "CI/CD", value: 50},
     { name: "Git", value: 70 },
     { name: "Linux", value: 60},
-    { name: "AWS", value: 60},
+    { name: "AWS", value: 70},
     
   ],
   softSkills: [

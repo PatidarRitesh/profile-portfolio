@@ -53,7 +53,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           <p className="lead text-center">{message}{" "}
   {link && (
     <span>
-      I am passionate about NLP and currently work at {" "}
+      Backend Developer at {" "}
       <a
         href="https://neuroreef.com/"
         target="_blank"
@@ -62,7 +62,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
       >
       NeuroReef Labs
       </a>
-      {" "} With an M.Tech in Computer Science from the Indian Institute of Technology Gandhinagar, my work spans dynamic areas like Speech-to-Text (Audio Processing) and DevOps. I'm passionate about merging software development with data science to drive forward-thinking innovation.If you're interested in collaborating or discussing technology's evolving landscape, let’s connect and explore new possibilities together!
+      {" "} , specializing in Natural Language Processing and dedicated to building impactful tech solutions,With an M.Tech in Computer Science from the Indian Institute of Technology Gandhinagar, my work spans dynamic areas like Speech-to-Text (Audio Processing) and DevOps. I'm passionate about merging software development with data science to drive forward-thinking innovation.If you're interested in collaborating or discussing technology's evolving landscape, let’s connect and explore new possibilities together!
     </span>
   )}</p>
           {resume && (
