@@ -56,7 +56,7 @@ const about = {
   imageLink: require("../editable-stuff/Ritesh_image.jpeg"),
   imageSize: 350,
   message:"I'm Ritesh Patidar,",
-  resume: "https://drive.google.com/file/d/1aJj953IxqIiYUvFs_F9hqgVbO3hm1mWC/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1MnIt3IF7nnh8q9ejk_9JpSLlhAyDb2MH/view?usp=drive_link",
   // resume: require("../editable-stuff/Ritesh_resume.pdf"),
 };
 
@@ -68,7 +68,7 @@ const about = {
 //   message: `
 //     My name is Ritesh Patidar. Currently pursuing my M.Tech in Computer Science at IIT Gandhinagar, I'm passionate about NLP and actively engaged in a project under <a href="https://mayank4490.github.io/">Prof. Mayank Singh</a>. My interests span software development and data science, and I'm excited about contributing to innovative tech solutions. Let's connect and explore the possibilities together!
 //   `,
-//   resume: "https://drive.google.com/file/d/1aJj953IxqIiYUvFs_F9hqgVbO3hm1mWC/view?usp=drive_link",
+//   resume: "https://drive.google.com/file/d/1MnIt3IF7nnh8q9ejk_9JpSLlhAyDb2MH/view?usp=drive_link",
 // };
 
 // PROJECTS SECTION
@@ -112,27 +112,31 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
+    { name: "Python", value: 95 },
     { name: "C/C++", value: 85 },
-    { name: "Python", value: 90 },
     { name: "Java", value: 60 },
-    { name: "SQL", value: 80 },
-    { name: "JavaScript", value: 40 },
-    { name: "React", value: 40 },
-    { name: "HTML/CSS", value: 60 },
-    { name: "Flask", value: 70},
-    {name:"NLP", value: 70},
-    {name:"LangChain", value: 60},
-    { name: "Data Structures", value: 85 },
-    { name: "Docker", value: 70 },
-    { name: "Kubernetes", value: 60 },
-    { name: "Ansible", value: 20},
-    { name: "Terraform", value: 20},
-    { name: "Jenkins", value: 20},
-    { name: "CI/CD", value: 50},
-    { name: "Git", value: 70 },
-    { name: "Linux", value: 60},
-    { name: "AWS", value: 70},
-    
+    { name: "FastAPI", value: 90 },
+    { name: "Flask", value: 75 },
+    { name: "Django", value: 65 },
+    { name: "PostgreSQL", value: 85 },
+    { name: "MySQL", value: 75 },
+    { name: "LangChain", value: 85 },
+    { name: "LangGraph", value: 75 },
+    { name: "LLMs / RAG", value: 85 },
+    { name: "Agentic Systems", value: 80 },
+    { name: "Vector DBs", value: 75 },
+    { name: "NLP", value: 80 },
+    { name: "PyTorch", value: 70 },
+    { name: "Speech-to-Text / LiveKit", value: 75 },
+    { name: "Kafka", value: 75 },
+    { name: "Temporal", value: 70 },
+    { name: "Server-Sent Events (SSE)", value: 80 },
+    { name: "Docker", value: 85 },
+    { name: "Kubernetes", value: 65 },
+    { name: "AWS (EC2, S3, RDS, SQS, Lambda, ECR)", value: 80 },
+    { name: "CI/CD / GitHub Actions", value: 75 },
+    { name: "Linux / Nginx", value: 75 },
+    { name: "Git & GitHub", value: 85 },
   ],
   softSkills: [
     { name: "Leadership", value: 85 },
@@ -160,16 +164,21 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Backend Developer',
-      companylogo: require('../assets/img/NeuroReef.png'),
-      date: 'Oct 2023 – Present',
+      role: 'Sr. Associate, Technology (Back End Development)',
+      companylogo: require('../assets/img/brahma.png'),
+      date: 'Feb 2025 – Present',
     },
     {
-      role: 'NLP Researcher',// Here Add Company Name
+      role: 'Backend Engineer',
+      companylogo: require('../assets/img/NeuroReef.png'),
+      date: 'May 2024 – Jan 2025',
+    },
+    {
+      role: 'NLP Researcher',
       companylogo: require('../assets/img/lingo.png'),
       date: 'Dec 2022 – May 2024',
     },
-    
+
   ]
 }
 

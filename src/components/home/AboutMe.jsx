@@ -53,16 +53,16 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           <p className="lead text-center">{message}{" "}
   {link && (
      <span>
-     Backend Developer at {" "}
+     Sr. Associate, Technology (Back End Development) at {" "}
      <a
-       href="https://neuroreef.com/"
+       href="https://brahmasystems.ai/"
        target="_blank"
        rel="noreferrer noopener"
-       aria-label="NeuroReef Labs Website"
+       aria-label="Brahma AI Systems Website"
      >
-     NeuroReef Labs
+     Brahma AI Systems
      </a>
-     {" "} , specializing in Natural Language Processing and dedicated to building impactful tech solutions,with an M.Tech in Computer Science from the Indian Institute of Technology Gandhinagar, my work spans dynamic areas like Speech-to-Text (Audio Processing) and DevOps.My passion lies in blending software development with data science to push the boundaries of innovation.If you're interested in collaborating or discussing technology's evolving landscape, let’s connect and explore new possibilities together!
+     {" "}, where I lead backend development across multiple client and in-house projects — building scalable microservices and distributed systems with FastAPI, PostgreSQL, Kafka, and Temporal. My current work spans an LLM-powered media buying platform, a Kafka-driven menu management system (DPOD), and a multi-channel e-commerce integration platform. Previously, I was a Backend Engineer at <a href="https://neuroreef.com/" target="_blank" rel="noreferrer noopener" aria-label="NeuroReef Labs Website">NeuroReef Labs</a>, working on LangChain-based AI applications and speech-to-text pipelines on AWS. I hold an M.Tech in Computer Science from IIT Gandhinagar, and I'm passionate about blending software engineering with applied AI — LLMs, RAG, and agentic systems — to ship impactful products. If you'd like to collaborate or chat about backend systems and AI, let's connect!
    </span>
   )}</p>
           {resume && (
